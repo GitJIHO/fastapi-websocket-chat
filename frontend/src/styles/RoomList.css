@@ -1,0 +1,71 @@
+.room-list {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.room-list h2 {
+  margin-bottom: 15px;
+  color: #4a69bd;
+}
+
+.room-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.room-info {
+  flex: 1;
+}
+
+.room-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.room-users {
+  font-size: 14px;
+  color: #777;
+}
+
+.join-btn {
+  background-color: #4a69bd;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+  background-color: #3c5aa7;
+}
+
+.username-form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.username-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.submit-btn {
+  background-color: #4a69bd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
